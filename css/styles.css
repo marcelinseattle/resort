@@ -1,3 +1,55 @@
 body {
-  background-color: #271d35;
+  background-color: black;
+  color: #d86e11;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+header{
+  margin-top: -5%;
+  background-image: url("../img/jackolanterns.jpeg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  padding-top: 5%;
+  text-align: left;
+  font-family: cursive;
+}
+
+h2 {
+  font-style: italic;
+  text-align: left;
+}
+
+img {
+  max-width: 350px;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: white;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: black;
+  background-color: #d86e11;
+  margin-left: -10%;
+  margin-bottom: 3%;
+}
+
+.navlink {
+  display: block;
+  float: left;
+  padding: 10px 10px;
+  text-decoration: none;
 }
