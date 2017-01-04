@@ -27,6 +27,11 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
 img {
   max-width: 300px;
   border-radius: 50%;
